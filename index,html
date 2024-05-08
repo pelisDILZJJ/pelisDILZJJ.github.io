@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+</head>
+<body>
+
+<link href = "colors.css" rel ="stylesheet">
+
+<form method="GET" action="peliculas.html">
+<div class="login-container" id="login-container">
+<h2>Iniciar sesión</h2>
+
+<form id="login-form"> 
+<tr><td><input type="usuario" name="usuario" id="usuario" placeholder="usuario" required="required"/></td></tr>
+<tr><td><input type="password" id="contraseña" placeholder="Contraseña" required="required">       </td></tr>
+<br><button class ="button" type="submit" value="Iniciar sección">enviar<a href="peliculas.html"> </td> </a> </br>
+
+</form>
+</div>
+
+<script>
+function login() {
+// Obtener valores de entrada
+var usuario = document.getElementById('usuario').value;
+var contraseña = document.getElementById('contraseña').value;
+ }
+    </script>
+</body>
+</html>
