@@ -1,0 +1,46 @@
+nav{
+	background-color:#360;
+	display:flex;
+	flex-direction:row;
+}
+
+.menu{
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+}
+
+.menu > li > a{
+	display:block;
+	padding:20px 30px;
+	color:#FF9;
+	text-decoration:none;
+}
+
+.menu>li:hover{
+	background-color:#663;
+}
+
+.menu-vertical{
+	position:absolute;
+	display:none;
+	list-style:none;
+	width:auto;
+	background-color: rgba(0,0,0,.5);
+}
+
+.menu li:hover .menu-vertical{
+	display:block;
+}
+
+.menu-vertical li:hover{
+	background-color:#693;
+}
+
+.menu-vertical li a{
+	display:block;
+	color:#FF6;
+	padding:20px 40px;
+	text-decoration:none;
+}
+
